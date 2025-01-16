@@ -1,0 +1,151 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="7 cudownych piłkarzy - Messi, Maradona, Pelé, Ronaldinho, Nazário, Neymar, Lewandowski">
+    <title>7 Cudów Piłkarzy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">7 Cudów Piłkarzy</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#table">Tabela</a></li>
+                <li><a href="#form">Formularz</a></li>
+                <li><a href="#map">Mapa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>7 Cudownych Piłkarzy</h1>
+            <p id="opis">Odkryj historie i osiągnięcia największych legend piłki nożnej.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="images/messi.jpg" alt="Lionel Messi">
+                <img src="images/maradona.jpg" alt="Diego Maradona">
+                <img src="images/pele.jpg" alt="Pelé">
+                <img src="images/ronaldinho.jpeg" alt="Ronaldinho">
+                <img src="images/ronaldo.jpg" alt="Ronaldo Nazário">
+                <img src="images/neymar.jpg" alt="Neymar">
+                <img src="images/lewandowski.jpg" alt="Robert Lewandowski">
+            </div>
+        </section>
+
+        <section id="table">
+            <h2>Informacje o Piłkarzach</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Imię i Nazwisko</th>
+                        <th>Kraj</th>
+                        <th>Ostatnie 3 Kluby</th>
+                        <th>Najważniejsze Osiągnięcia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lionel Messi</td>
+                        <td>Argentyna</td>
+                        <td>PSG, Barcelona, Inter Miami</td>
+                        <td>7 Złotych Piłek, Mistrz Świata 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Diego Maradona</td>
+                        <td>Argentyna</td>
+                        <td>Boca Juniors, Barcelona, Napoli</td>
+                        <td>Mistrz Świata 1986</td>
+                    </tr>
+                    <tr>
+                        <td>Pelé</td>
+                        <td>Brazylia</td>
+                        <td>Santos, New York Cosmos</td>
+                        <td>3x Mistrz Świata</td>
+                    </tr>
+                    <tr>
+                        <td>Ronaldinho</td>
+                        <td>Brazylia</td>
+                        <td>Barcelona, Milan, PSG</td>
+                        <td>Złota Piłka 2005, Mistrz Świata 2002</td>
+                    </tr>
+                    <tr>
+                        <td>Ronaldo Nazário</td>
+                        <td>Brazylia</td>
+                        <td>Real Madryt, Inter Mediolan, Barcelona</td>
+                        <td>2x Mistrz Świata, 2 Złote Piłki</td>
+                    </tr>
+                    <tr>
+                        <td>Neymar</td>
+                        <td>Brazylia</td>
+                        <td>PSG, Barcelona, Santos</td>
+                        <td>Złoty But Copa Libertadores</td>
+                    </tr>
+                    <tr>
+                        <td>Robert Lewandowski</td>
+                        <td>Polska</td>
+                        <td>Barcelona, Bayern, Borussia Dortmund</td>
+                        <td>2x FIFA The Best, Król Strzelców Europy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>Formularz</h2>
+            <form>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="favorite">Ulubiony piłkarz:</label>
+                <select id="favorite" name="favorite">
+                    <option value="messi">Lionel Messi</option>
+                    <option value="maradona">Diego Maradona</option>
+                    <option value="pele">Pelé</option>
+                    <option value="ronaldinho">Ronaldinho</option>
+                    <option value="ronaldo">Ronaldo Nazário</option>
+                    <option value="neymar">Neymar</option>
+                    <option value="lewandowski">Robert Lewandowski</option>
+                </select>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Wyślij</button>
+                <button type="reset">Wyczyść</button>
+            </form>
+        </section>
+
+        <section id="map">
+            <h2>Mapa</h2>
+            <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.0869538665273!2d2.121897715420373!3d41.380897079263735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4987b6182ac8d%3A0xb3c7d2b7b4b9bb0b!2sCamp%20Nou!5e0!3m2!1spl!2spl!4v1615492524928!5m2!1spl!2spl" 
+        width="100%" 
+        height="450px" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+        </section>
+
+        <section id="video">
+            <h2>Film</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A-r9sj7zHJ4?si=s2PuEYA5g3mzodF3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p id="autor">Autor: LeBreton</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Autor: Gabriel Hejduk | Klasa: 2TB</p>
+    </footer>
+</body>
+</html>
